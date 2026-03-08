@@ -1,0 +1,22 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+.venv/
+venv/
+env/
+
+# IDEs and Editors
+.idea/
+.vscode/
+
+# Environment variables and secrets
+.env
+
+# Temporary files or uploaded images (from your OCR testing)
+*.jpg
+*.jpeg
+*.png
+temp/
