@@ -18,7 +18,7 @@ try:
     AZURE_ENDPOINT = secret_client.get_secret("TextAnalyticsEndpoint").value
 
     # NEW: Fetch your Application Insights connection string securely from the vault!
-    APP_INSIGHTS_CONN_STR = secret_client.get_secret("AppInsightsConnString").value
+    APP_INSIGHTS_CONN_STR = secret_client.get_secret("AppInsightsConnString0").value
 
     print("Secrets successfully loaded from Azure Key Vault!")
 except Exception as e:
